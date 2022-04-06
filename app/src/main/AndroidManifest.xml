@@ -33,6 +33,12 @@
             android:name=".stripe_terminal.ReaderDiscoveryActivity"
             android:exported="true" />
         <activity
+            android:name=".wedgescan.WedgeContinuousScanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".wedgescan.WedgeOneScanActivity"
+            android:exported="true" />
+        <activity
             android:name=".stripe_terminal.StripeTerminalIntegrationActivity"
             android:exported="true">
             <!--<intent-filter>
