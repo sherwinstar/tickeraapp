@@ -5,5 +5,10 @@
     <string name="gps_network_not_enabled">GPS not enabled!</string>
     <string name="open_location_settings">Open Location</string>
     <string name="Cancel">Cancel</string>
+    <string name="startBTN">Start decode</string>
+    <string name="stopBTN">Stop decode</string>
+    <string name="initial_hint">Press The Scan key</string>
+    <string name="initial_hint2">Scan Count</string>
+    <string name="scan_result">Scan Result</string>
 
 </resources>
