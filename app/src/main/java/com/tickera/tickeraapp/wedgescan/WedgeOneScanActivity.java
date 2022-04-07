@@ -82,7 +82,7 @@ public class WedgeOneScanActivity extends Activity {
 		wedgeScan = new WedgeScan(this, new WedgeScanCallback() {
 			@Override
 			public void onScanSuccess(String type, String result) {
-				mscan_result.setText("type" + type + ", content: " + result);
+				mscan_result.setText("type " + type + ", content: " + result);
 			}
 		});
 	}
