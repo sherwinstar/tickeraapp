@@ -57,6 +57,7 @@ public class WedgeContinuousScanActivity extends Activity {
 			@Override
 			public void onScanSuccess(String type, String result) {
 				mCount++;
+				scan_num.setText("" + mCount);
 				mscan_result.setText("type" + type + ", content: " + result);
 			}
 		});
